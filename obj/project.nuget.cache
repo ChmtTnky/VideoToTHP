@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "KbTJtb/7e/LX/ofLS0BsrX/dGcQP0+G4OcJ+nwoCA8EnnkMFr/JJ5I7FEzCPqP+3Cy7ZkxXPnUa22XyPbW1S/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jajo7\\source\\repos\\VideoToTHP\\VideoToTHP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jajo7\\.nuget\\packages\\ffmpegcore\\5.1.0\\ffmpegcore.5.1.0.nupkg.sha512",
+    "C:\\Users\\jajo7\\.nuget\\packages\\instances\\3.0.0\\instances.3.0.0.nupkg.sha512",
+    "C:\\Users\\jajo7\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\jajo7\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
