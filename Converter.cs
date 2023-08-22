@@ -85,12 +85,14 @@ namespace VideoToTHP
             // THP needs a folder of jpegs
             // This extracts them at max quality
             // 29.97 hz is the best framerate, but 59.94 works with the added risk of lagging the game
+            // THPConv only works with the 4:2:0 pixel format
             Console.WriteLine(
                 "Extracting Frames...");
             FFMpegArguments
                 .FromFileInput(source_vid)
                 .OutputToFile(Path.Combine(JPEG_FOLDER, "%05d.jpeg"), true, options => options
                     .WithCustomArgument("-q:v 1")
+                    .WithCustomArgument("-pix_fmt yuv420p")
                     .WithFramerate(29.97)
                     .WithVideoFilters(filterOptions => filterOptions
                         .Scale(dimensions.width, dimensions.height))
